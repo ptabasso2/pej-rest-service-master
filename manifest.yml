@@ -1,0 +1,6 @@
+---
+applications:
+- name: pej-rest-service-master
+  memory: 1024M
+  instances: 1
+  path: build/libs/pej-rest-service-0.1.0.jar
