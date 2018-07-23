@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 public class GreetingController {
 
-    private static final String template = "Hello, %s! <br> this is me Pejman";
+    private static final String template = "Hello, %s! this is me Pejman";
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/greeting")
